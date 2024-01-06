@@ -4,14 +4,37 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<title></title>
+
+<style>
+	body {background-color: silver;}
+	h1   {text-align: center;}
+	p    {text-align: center; font-size:30px;}
+	form {text-align: center;}
+</style>
+</head>
+	<title>index</title>
 
 </head>
 
-  <body style="background-color: silver;">
+  <body>
 
-	<h1 style="text-align: center;">Welcome to Barber Shop!</h1>
-  <p style="text-align: center;">We are open</p><br>
+		<h1>Welcome to Barber Shop!</h1>
+
+	  <p>We are open</p><br> 
+
+	  <form action="/" method="POST">
+
+	  	 Name:                                <br>
+	  	<input type="text" name="user_name" /><br>
+
+	  	 Phone:																<br>
+	  	<input type="text" name="phone" />	  <br>	
+       Date and time:												<br>
+	  	<input type="text" name="date_time" /><br>
+	  	<br>
+	  	<input type="submit" />
+
+	  </form>
 
   </body>
 </html>
