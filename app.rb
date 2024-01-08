@@ -12,7 +12,7 @@ require 'sinatra'
  	@title = 'Thankee!'
  	@message = "Dear #{@user_name}, we will be waiting at #{@date_time} in our Barber Shope!"
 
- 	file = File.open 'users.txt', 'a'
+ 	file = File.open 'visitors.txt', 'a'
  	file.write "User: #{@user_name}, Phone: #{@phone}, Date and time: #{@date_time} \n"
  	file.close
  	erb :flash_messages
