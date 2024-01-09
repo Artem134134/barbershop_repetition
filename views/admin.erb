@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<style>
+<style>
 
 	body {background-color: Lavender;}
 	h1   {text-align: center;}
@@ -12,7 +12,8 @@
 	form {text-align: center;}
 
 </style>
-	<title>flash messages</title>
+
+	<title>admin</title>
 </head>
 
 <body>
@@ -20,7 +21,20 @@
 	<p><%= @message %></p>
 	<br>
 	<br>
-	<p><%= @logfile %></p> 
+
+	<form action="/admin" method="POST">
+
+	  	 login: <br>                                 
+	  	<input type="text" name="login" /><br>
+	  	<br>
+	  	 Password: <br>									  
+	  	<input type="password" name="password" /><br>
+	  	<br> 
+	  	<br>
+	  	<input type="submit" />
+	</form>
+	<br>
+	<br>
 	<br>
 
 	<p><a href="/"><%= @name_page %></a></p>
