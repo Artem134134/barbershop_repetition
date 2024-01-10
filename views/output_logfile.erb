@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+
+	body  {background-color: GhostWhite;}
+	h1    {text-align: center;}
+	p     {text-align: center; font-size:30px;}
+	form  {text-align: center;}
+<%# 	table {align: right} %>
+
+</style>
+	<title>output</title>
+</head>
+
+<body>
+	<h1><%= @title %></h1>
+	<p><%= @message %></p>
+	<br>	
+
+	<table align="center" border="2">
+		<% @logfile.each_line do |line| %>
+  		<tr><td><%= line %></td></tr>
+		<% end %>
+	</table>
+
+<%= @logfile.close %>
+    
+
+	<p><a href="/"><%= @name_page %></a></p>
+
+
+</body>
+</html>

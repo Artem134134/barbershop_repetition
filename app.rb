@@ -1,6 +1,7 @@
 require 'sinatra'
 
  get '/'  do 
+ 	@name_page = 'Admin Zone'
  	erb :index
  end
 
@@ -11,7 +12,7 @@ require 'sinatra'
 
     @name_page = 'Main page'
 
- 	if @user_name == '' && @phone == '' && @date_time == ''
+ 	if @user_name == '' or @phone == '' or @date_time == ''
  	    @title = 'Not accepted!'
  	    @message = 'Error, fill in all fields!  :-('
  	    
@@ -28,7 +29,7 @@ require 'sinatra'
  end
 
  get '/admin' do 
-	
+	@message = 'Sign in to Admin'
  	@name_page = 'Main page'
 
  	erb :admin
@@ -41,20 +42,17 @@ post '/admin' do
 
 	@name_page = 'Main page'
 
-	if @login == 'Art' and @password == 'Volga'
+	if @login == 'Art' and @password == '@Volga'
 
-		@title = 'Admin Zone'
+		@title = 'Admin Zone (Output Logfile)'
  		@message = 'Hi admin - Art@Volga'
 
- 		@logfile = File.open("visitors.txt")
+		@logfile = File.open("./visitors.txt", "r")
+		erb :output_logfile
 
-        erb :flash_messages
-    else
-          
-       @message = "Access is denied!"
-
+   else  
+   	 @message = 'Sign in to Admin'    
+       @report = "Access is denied! Incorrect login or password."
           erb :admin
-       end
-
-
+   end
 end
