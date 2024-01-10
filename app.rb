@@ -21,7 +21,7 @@ require 'sinatra'
 	 	@title = 'Thankee!  :-)'
 	 	@message = "Dear - #{@user_name}, we will be waiting at #{@date_time} in our Barber Shope!"
     
-	 	file = File.open 'visitors.txt', 'a'
+	 	file = File.open './public/visitors.txt', 'a'
 	 	file.write "User - #{@user_name}, Phone: #{@phone}, Date and time: #{@date_time} \n"
 	 	file.close
 	 	erb :flash_messages
@@ -47,9 +47,9 @@ post '/admin' do
 		@title = 'Admin Zone (Output Logfile)'
  		@message = 'Hi admin - Art@Volga'
 
-		@logfile = File.open("./visitors.txt", "r")
+		@logfile = File.open('./public/visitors.txt', 'r')
 		erb :output_logfile
-
+		
    else  
    	 @message = 'Sign in to Admin'    
        @report = "Access is denied! Incorrect login or password."
