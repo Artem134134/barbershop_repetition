@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="/styles.css" rel="stylesheet" media="all" />
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<style>
-
-	body  {background-color: GhostWhite;}
-	h1    {text-align: center;}
-	p     {text-align: center; font-size:30px;}
-	form  {text-align: center;}
-
-</style>
 	<title>output</title>
 </head>
 
-<body>
+<body id="b2">
 	<h1><%= @title %></h1>
 	<p><%= @message %></p>
 	<br>	
 
-	<table align="center" border="2">
+	<table align="center">
 		<% @logfile.each_line do |line| %>
   		<tr><td><%= line %></td></tr>
 		<% end %>

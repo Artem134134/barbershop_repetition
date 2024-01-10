@@ -1,0 +1,10 @@
+/*Comment!*/
+
+body  {background-color: silver;}
+body#b1  {background-color: Lavender;}
+body#b2  {background-color: MintCream;}
+h1    {text-align: center;}
+p     {text-align: center; font-size:30px;}
+form  {text-align: center;}
+a     {text-align: center; color:gray;}
+table, tr, td {align: center; border: 1px solid Grey;}
