@@ -1,5 +1,7 @@
-# Hi there!
-
+# Hi there! 
+____
+:santa:  :christmas_tree:  :gift:
+____
 ## Barber Shop repetition
 ____
 
