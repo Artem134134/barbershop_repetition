@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'sinatra'
 
  get '/'  do 
@@ -44,7 +45,7 @@ post '/admin' do
 
 	if @login == 'Art' and @password == '@Volga'
 
-		@title = 'Admin Zone (Output Logfile)'
+		@title = 'Admin Zone (Output Log)'
  		@message = 'Hi admin - Art@Volga'
 
 		@logfile = File.open('./public/visitors.txt', 'r')
