@@ -1,9 +1,5 @@
-# Hi there! 
-____
-:santa:  :christmas_tree:  :gift:
-____
+# Hi there!   :santa:  :christmas_tree:  :gift:
 ## Barber Shop repetition
-____
 
 This app is simples, written in [Ruby](https://ruby-doc.org/) on [Sinatra](http://www.sinatrarb.com/). Created for registration in barber shop and has an admin area page. 
 ____
