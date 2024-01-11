@@ -13,14 +13,14 @@ ____
 ### Download and run barbershop_repetition :
 
 ```ruby
-- [X]    git clone https://github.com/Artem134134/barbershop_repetition.git
+     git clone https://github.com/Artem134134/barbershop_repetition.git
 
-- [X]    cd barbershop_repetition
-- [X]    bundle install             # To install sinatra
+     cd barbershop_repetition
+     bundle install             # To install sinatra
 
-- [X]    bundle exec ruby app.rb    # To run the sample
+     bundle exec ruby app.rb    # To run the sample
+
 ```
-
 Then open [http://localhost:4567/](http://localhost:4567/)
 
 ___
