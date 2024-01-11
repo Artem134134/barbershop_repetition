@@ -11,7 +11,7 @@ ____
 + Sinatra
 + HTML
 + CSS
-
+____
 ### Download and run barbershop_repetition :
 
 ```ruby
@@ -24,3 +24,7 @@ ____
 ```
 
 Then open [http://localhost:4567/](http://localhost:4567/)
+
+___
+## Screen shot
+![Main page](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/1.png)
