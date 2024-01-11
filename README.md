@@ -26,5 +26,10 @@ ____
 Then open [http://localhost:4567/](http://localhost:4567/)
 
 ___
-## Screen shot
-![Main page](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/1.png)
+## Screen shot:
+![Main Page](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/1.png, "Main Page")
+![Visitor registration](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/2.png, "Visitor registration")
+![Visitor registration error](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/3.png, "Visitor registration error")
+![Sign in to Admin](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/4.png, "Sign in to Admin")
+![Output Visitors](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/5.png, "Output Visitors")
+![Sign in - Error](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/6.png, "Sign in - Error")
