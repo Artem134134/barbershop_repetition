@@ -13,12 +13,12 @@ ____
 ### Download and run barbershop_repetition :
 
 ```ruby
-    git clone https://github.com/Artem134134/barbershop_repetition.git
+- [X]    git clone https://github.com/Artem134134/barbershop_repetition.git
 
-    cd barbershop_repetition
-    bundle install             # To install sinatra
+- [X]    cd barbershop_repetition
+- [X]    bundle install             # To install sinatra
 
-    bundle exec ruby app.rb    # To run the sample
+- [X]    bundle exec ruby app.rb    # To run the sample
 ```
 
 Then open [http://localhost:4567/](http://localhost:4567/)
@@ -27,13 +27,13 @@ ___
 
 ## Screen shot:
 ![Main Page](barbershop_repetition/public/screenshot
-/1.png, "Main Page")
-![Visitor registration](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/2.png, "Visitor registration")
+/1.png)
+![Visitor registration](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/2.png)
 
-![Visitor registration error](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/3.png, "Visitor registration error")
+![Visitor registration error](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/3.png)
 
-![Sign in to Admin](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/4.png, "Sign in to Admin")
+![Sign in to Admin](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/4.png)
 
-![Output Visitors](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/5.png, "Output Visitors")
+![Output Visitors](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/5.png)
 
-![Sign in - Error](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/6.png, "Sign in - Error")
+![Sign in - Error](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/6.png)
