@@ -5,8 +5,9 @@ This app is simples, written in [Ruby](https://ruby-doc.org/) on [Sinatra](http:
 ____
 
 **Technologies:**
-+ Ruby
-+ Sinatra
++ Ruby 2.7
++ Sinatra 3.2
++ sinatra-reloader
 + HTML
 + CSS
 ____
@@ -26,8 +27,7 @@ Then open [http://localhost:4567/](http://localhost:4567/)
 ___
 
 ## Screen shot:
-![Main Page](barbershop_repetition/public/screenshot
-/1.png)
+![Main Page](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/1.png)
 ![Visitor registration](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/2.png)
 
 ![Visitor registration error](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/3.png)
