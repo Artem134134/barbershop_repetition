@@ -21,12 +21,14 @@ ____
 
      bundle exec ruby app.rb    # To run the sample
 
+     Use Ctrl-C                 # To stop
+
 ```
 Then open [http://localhost:4567/](http://localhost:4567/)
 
 ___
 
-## Screen shot:
+### Screen shot:
 ![Main Page](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/1.png)
 ![Visitor registration](https://github.com/Artem134134/barbershop_repetition/blob/main/public/screenshot/2.png)
 
